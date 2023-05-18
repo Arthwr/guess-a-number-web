@@ -1,0 +1,54 @@
+.btn {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+    margin: 10px 0px;
+}
+
+.main-text {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+
+}
+
+label.main-text {
+    height: 24px;
+    line-height: 19px;
+}
+
+.header {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+    border-bottom: solid;
+    background-color: beige;
+    font-weight: bold;
+    color: darkslategray;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+}
+
+#again-button {
+    display: none;
+}
+
+#feedback {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+    border-top: solid;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+#guess-input {
+    height: 20px;
+    width: 100px;
+    margin-left: 5px;
+}
+
+#guess-input[type=number]::-webkit-inner-spin-button,
+#guess-input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
